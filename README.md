@@ -1,12 +1,14 @@
-> 📚 **培训文档（必读）**：[hnusec-star.feishu.cn/wiki/U2xfwfP39iWhISkZOa4c1UtInxd](https://hnusec-star.feishu.cn/wiki/U2xfwfP39iWhISkZOa4c1UtInxd?from=from_copylink)
->
-> 培训的整体安排、各方向学习内容与作业要求均以该飞书文档为准，请先阅读并收藏，随时留意更新。
-
 <h1 align="center">📘 HnuSec 2026-Autumn秋季培训</h1>
 
 <p align="center">
   2026 秋季培训作业专用提交仓库
 </p>
+
+# 📚 培训文档
+
+**[hnusec-star.feishu.cn/wiki/U2xfwfP39iWhISkZOa4c1UtInxd](https://hnusec-star.feishu.cn/wiki/U2xfwfP39iWhISkZOa4c1UtInxd?from=from_copylink)**
+
+培训的整体安排、各方向学习内容与作业要求均以该飞书文档为准，请先阅读并收藏，随时留意更新。
 
 > 「提交时间：2026-2027-1」
 
