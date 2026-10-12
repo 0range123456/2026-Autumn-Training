@@ -19,7 +19,7 @@
 | 提交范围 | 2026秋季培训作业        |
 | 提交时间 | 2026-2027-1             |
 | 提交格式 | 仅支持 Markdown（`.md`） |
-| 命名格式 | `年级-方向-id-姓名`     |
+| 命名格式 | `年级-方向-id-日期`     |
 | PR 要求  | 一个作业对应一个 PR     |
 
 ## 📂 项目结构
@@ -66,10 +66,10 @@
 
 - 提交文件格式仅限 `.md`。
 - 请自行学习 markdown 语法，这里提供一个学习链接：https://markdown.com.cn/basic-syntax/
-- 文件名统一为 `年级-方向-id-姓名.md`。
+- 文件名统一为 `年级-方向-id-日期.md`（日期为四位月日，如 `1012` 表示 10 月 12 日）。
 - 请按所属方向和周次提交到对应的目录。
-- 示例：`Web/submissions/week1/25-web-Jatopos-xxx.md`
-- 示例：`Re/submissions/week2/25-re-xxx-李四.md`
+- 示例：`Web/submissions/week1/26-web-qing-1012.md`
+- 示例：`Re/submissions/week2/26-re-xxx-1020.md`
 
 ## 📋 内容建议
 
@@ -136,8 +136,8 @@ print("hello, world")
 ## 🔄 PR 规则
 
 - 请阅读当前目录下的 `如何PR.md`
-- PR 标题格式统一为：`年级-方向-id-姓名`
-- 示例：`25-web-Jatopos-xxx`
+- PR 标题格式统一为：`年级-方向-id-日期`
+- 示例：`26-web-qing-1012`
 
 ## 📌 提交提醒
 
