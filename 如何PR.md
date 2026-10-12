@@ -2,40 +2,40 @@
 
 将仓库fork到自己的仓库里面
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760695697401-c6db1c37-17bf-42b4-9c59-9660bf494e5f.png)
+<img width="2433" height="1029" alt="QQ_1760695653186" src="https://github.com/user-attachments/assets/2750c8b9-eb73-4df9-89a5-9732cb450b8f" />
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760695729770-77c4bafd-3061-4424-be0b-5d3431578b6d.png)
+<img width="1122" height="860" alt="image" src="https://github.com/user-attachments/assets/79396be1-1bc7-450d-aa7f-5e68bfef6d11" />
 
 从自己的Repositories中找到该仓库，每次提交前先sync fork一下，确保是最新版本
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760697088165-0c035bc7-f1f7-42b6-8b76-f3dc4b98957e.png)
+<img width="2049" height="887" alt="QQ_1760697082814" src="https://github.com/user-attachments/assets/e3bda174-0e59-4dd3-862c-2244bc6e289e" />
 
 # step2:上传作业
 
 进入仓库后找到需要提交作业的文件夹，点击add file添加作业文件，可以直接书写，也可以从笔记软件导出后直接提交
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760695884772-0044a591-eaf7-445a-9bee-c62f6d975e6c.png)
+<img width="2433" height="814" alt="QQ_1760695878752" src="https://github.com/user-attachments/assets/64cbcf4f-d4af-433a-a474-e5845bf148aa" />
 
 作业提交
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760696357432-bb8794b3-9413-41ea-b131-1401f113aac4.png)
+<img width="2379" height="876" alt="QQ_1760696348891" src="https://github.com/user-attachments/assets/d4377207-5ee0-4440-9507-e594bcc6c266" />
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760696456961-2adf35b8-ce6b-4f89-93b5-4fae094e84cb.png)
+<img width="720" height="753" alt="QQ_1760696442071" src="https://github.com/user-attachments/assets/0062b5ae-7f8f-4c09-8378-c8f85016064c" />
 
 还需修改点这里
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760696524320-9fc3c81b-240c-4335-b9a2-64709f727396.png)
+<img width="2388" height="537" alt="QQ_1760696514103" src="https://github.com/user-attachments/assets/e1493db1-38e6-420b-be0a-6192e236159b" />
 
 # step3:pull request(即PR)
 
 修改完成后点这里，open pull request
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760696604936-87a51788-5a35-4c81-a218-5e3a5ad20b58.png)
+<img width="1881" height="883" alt="QQ_1760696580418" src="https://github.com/user-attachments/assets/901f5d76-4521-42d9-9fd4-0105ba4ced1c" />
 
 creat pull request
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760696823655-a0f1dc9e-4d36-477c-8677-fef32706f71d.png)
+<img width="1982" height="1014" alt="QQ_1760696814400" src="https://github.com/user-attachments/assets/f63da182-1047-4b07-a413-d4a417a23ac7" />
 
 这样就提交成功了，等待管理员审核即可
 
-![](https://cdn.nlark.com/yuque/0/2025/png/54428404/1760696932467-33913192-99d4-4d59-ab95-fa4bbcccc0c7.png)
+<img width="1924" height="821" alt="image(1)" src="https://github.com/user-attachments/assets/52c48c7a-6846-4a09-a799-0553bcb22f4b" />
