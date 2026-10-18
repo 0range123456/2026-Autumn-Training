@@ -14,7 +14,7 @@
  
 
 ## 预备知识学习<font style="color:#F297CC;"></font>
-+ **Burp Suite 已安装 -- 用于抓包，改包，发包 **
++ **Burp Suite 已安装 -- 用于抓包，改包，发包**
 
 基本操作：打开Burp Suite , 打开内嵌浏览器 ，输入要抓包的网址 ，开启拦截抓包，发送到repeater进行测试。
 
