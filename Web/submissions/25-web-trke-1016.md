@@ -9,7 +9,7 @@
 + 学习Markdown语法，并使用语雀写总结和WP
 
 <!-- 这是一张图片，ocr 内容为： -->
-![](https://cdn.nlark.com/yuque/0/2026/png/70155640/1792055698737-7d3b6612-7f86-4c2e-b239-4fb97b5977e6.png)
+![](https://github.com/user-attachments/assets/6700c874-6317-4eed-a5de-056894497923)
 
  
 
@@ -34,7 +34,7 @@
 1. 搭建 Linux 环境：成功下载 VMware+kali
 
 <!-- 这是一张图片，ocr 内容为： -->
-![](https://cdn.nlark.com/yuque/0/2026/png/70155640/1792123020180-b8ebe34d-6b4b-47e2-9fe8-7bd770ccd884.png)
+![](https://github.com/user-attachments/assets/1effce01-3a49-4c35-9396-939e9b327cab)
 
 + 设置 root 账户密码 -- sudo passwd root，进入root用户：su root
 + 配置国内镜像源
@@ -136,7 +136,7 @@ Linux 查看进程 ps aux
 打开靶机，F12查看源码，Ctrl+F查flag找到flag
 
 <!-- 这是一张图片，ocr 内容为： -->
-![](https://cdn.nlark.com/yuque/0/2026/png/70155640/1792085148102-fc904a0c-1b6a-4c13-a7d8-e70d93caba5b.png)
+![](https://github.com/user-attachments/assets/7212c41a-0595-428c-9776-0f37def523b9)
 
 #### EXP
 无
@@ -154,15 +154,15 @@ Linux 查看进程 ps aux
 打开靶机看到登录界面 -- 用dirsearch输出文件扫描隐藏可访问文件，并将结果记录在result.txt文件中。
 
 <!-- 这是一张图片，ocr 内容为： -->
-![](https://cdn.nlark.com/yuque/0/2026/png/70155640/1792085615302-c31af010-cc5b-44b5-a005-7bee8b17256c.png)
+![](https://github.com/user-attachments/assets/46693198-6e5f-4784-94dd-709b2e8f37d1)
 
 <!-- 这是一张图片，ocr 内容为： -->
-![](https://cdn.nlark.com/yuque/0/2026/png/70155640/1792085700467-c434f0ac-a29f-4bb3-b35e-8adf39a8dff1.png)
+![](https://github.com/user-attachments/assets/c08c73a5-ff45-4774-bf34-2ace744b5406)
 
 访问隐藏的robots.txt文件，发现secret.php文件，尝试访问
 
 <!-- 这是一张图片，ocr 内容为： -->
-![](https://cdn.nlark.com/yuque/0/2026/png/70155640/1792085773324-3ad1df3c-e86f-4cfd-80cd-1010a00a653e.png)
+![](https://github.com/user-attachments/assets/27a6ebc2-6524-47b6-a526-189d6b35c2e1)
 
 发现密码就藏在这里，输入密码登入，获得flag
 
@@ -182,7 +182,7 @@ Linux 查看进程 ps aux
 打开靶机，发现题目利用GET传参来请求数据，由代码可知参数名为moe，对象文件为flag
 
 <!-- 这是一张图片，ocr 内容为： -->
-![](https://cdn.nlark.com/yuque/0/2026/png/70155640/1792118556913-6782e52e-ceaa-4ae5-b06c-a90a0837aefc.png)
+![](https://github.com/user-attachments/assets/96de991f-e6de-4e46-b48e-a5c35e3bc3bf)
 
 对url实施GET传参：[http://node5.anna.nssctf.cn:28688?moe=flag](http://node5.anna.nssctf.cn:28688/?moe=flag)，获得flag
 
