@@ -1,3 +1,35 @@
+# Week-1
++ ID:trke
++ 日期：2026-10-15
+
+## 前期准备日志
++ 用Steam++加速Github的访问，并Fork仓库到个人GIthub账号
++ 阅读Hun Sec 2026 秋季培训文档
++ 在语雀建立<Web--学习日志>和<Web-WP>知识库
++ 学习Markdown语法，并使用语雀写总结和WP
+
+<!-- 这是一张图片，ocr 内容为： -->
+![](https://github.com/user-attachments/assets/6700c874-6317-4eed-a5de-056894497923)
+
+ 
+
+## 预备知识学习<font style="color:#F297CC;"></font>
++ **Burp Suite 已安装 -- 用于抓包，改包，发包 **
+
+基本操作：打开Burp Suite , 打开内嵌浏览器 ，输入要抓包的网址 ，开启拦截抓包，发送到repeater进行测试。
+
++ **Hackbar 插件 已安装 -- 用于网络渗透测试**
+
+基本操作：打开Firefox，按F12进入面板，点击Hackbar图标，切分、修改、发送url  ；base64，url，hex，解码编码 ；MD5，SHA-1，SHA-256，ROT13加密 ；SQL注入,XSSpyload
+
++ **dirsearch 已安装 -- 用于暴力扫描**
+
+基本操作：打开D:\Sec_tool\Sec_Recon\dirsearch ，输入cmd ，输入相关命令 [dirsearch命令 -- CSDN](https://blog.csdn.net/2301_79518550/article/details/147349972)
+
++ **python3 + pip 已安装 -- python环境**
++ **vscode -- 已安装 -- 提供各种语言环境**
++ **vmvare + kali虚拟机 + win10靶机已安装 -- 用于学习Linux命令，及攻击测试**
+
 ## Linux 操作系统
 
 ### 1. 搭建 Linux 环境
@@ -217,3 +249,72 @@ unzip 压缩包名.zip -d /a/b   # 解压到指定目录
 | 停止服务 | `systemctl stop nginx` |
 | 重启服务 | `systemctl restart nginx` |
 | 查看服务状态 | `systemctl status nginx` |
+
+
+
+
+1. [[SWPUCTF 2021 新生赛]gift_F12](https://www.nssctf.cn/problem/382)
+
+#### 思路 
+打开靶机，F12查看源码，Ctrl+F查flag找到flag
+
+<img src="https://github.com/user-attachments/assets/7212c41a-0595-428c-9776-0f37def523b9" width="1046.6667406058657" alt="" title="" crop="0,0,1,1" id="u814a4211" class="ne-image">
+
+#### 总结
+有打开题解环境、看源码、查找字段和阅读题意的能力
+
+
+
+
+
+2. [robots.txt](https://www.qsnctf.com/#/main/driving-range?page=1&category=&difficulty=&keyword=robots.txt)
+
+#### 思路
+打开靶机看到登录界面 -
+
+<img src="https://github.com/user-attachments/assets/529e0b73-380c-4c1e-b14c-06ce39c7e5c3" width="582" alt="" title="" crop="0,0,1,1" id="ud19edd0b" class="ne-image">
+
+使用 dirsearch 工具输出文件扫描隐藏可访问文件
+
+<img src="https://github.com/user-attachments/assets/46693198-6e5f-4784-94dd-709b2e8f37d1" width="1255.555644251198" alt="" title="" crop="0,0,1,1" id="u6513fe13" class="ne-image">
+
+并将结果记录在result.txt文件中，发现 robots.txt 文件
+
+<img src="https://github.com/user-attachments/assets/c08c73a5-ff45-4774-bf34-2ace744b5406" width="1391.111209382743" alt="" title="" crop="0,0,1,1" id="u1ada8742" class="ne-image">
+
+访问隐藏的robots.txt文件，发现secret.php文件，尝试访问
+
+<img src="https://github.com/user-attachments/assets/27a6ebc2-6524-47b6-a526-189d6b35c2e1" width="1166.6667490829714" alt="" title="" crop="0,0,1,1" id="u86c3e94b" class="ne-image">
+
+发现密码就藏在这里
+
+<img src="https://github.com/user-attachments/assets/439d8b07-894c-4c4d-930c-72fa9f06fd66" width="523.9923706054688" alt="" title="" crop="0,0,1,1" id="u672c49d4" class="ne-image">
+
+输入密码登入，获得flag
+
+<img src="https://github.com/user-attachments/assets/d4fd1355-b5c9-4bb9-b78d-5bd614814442" width="512.9885864257812" alt="" title="" crop="0,0,1,1" id="u905f3ba7" class="ne-image">
+
+<img src="https://github.com/user-attachments/assets/10f0ef11-75d6-4a0b-b17e-fb106d4afb7f" width="514.5454248055299" alt="" title="" crop="0,0,1,1" id="u4001642d" class="ne-image">
+
+#### 总结
+善于运用dirsearch去扫描网址，发现隐藏文件
+
+
+
+
+
+3. [[MoeCTF 2021]Web安全入门指北—GET](https://www.nssctf.cn/problem/3412)
+
+#### 思路
+打开靶机，发现题目利用GET传参来请求数据，由代码可知参数名为moe，对象文件为flag
+
+<img src="https://github.com/user-attachments/assets/96de991f-e6de-4e46-b48e-a5c35e3bc3bf" width="637.7778228320244" alt="" title="" crop="0,0,1,1" id="u55dbc059" class="ne-image">
+
+对url实施GET传参：[http://node5.anna.nssctf.cn:28688?moe=flag](http://node5.anna.nssctf.cn:28688/?moe=flag)，获得flag
+
+<img src="https://github.com/user-attachments/assets/7bd92534-0b5c-4155-aeba-2a515deed363" width="480" alt="" title="" crop="0,0,1,1" id="ua02fb1e6" class="ne-image">
+
+#### 总结
+利用HTTP请求的GET方式正确传入参数，拿到隐藏数据
+
+
